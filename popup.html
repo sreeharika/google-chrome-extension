@@ -1,9 +1,25 @@
 <html>
-    <head>
-        <title>google-chrome extenion</title>
 
-    </head>
-    <body>
-        <h1>Notes</h1>
-    </body>
+<head>
+    <title>google-chrome extenion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id='container'>
+        <h1 id='greet'>To-Do list</h1>
+        <p><em>Highlight the listitem click once,To remove listitem double click the item</em></p>
+        <form name='todolist'>
+            <input type="text" name='ListItem' id="userText" />
+        </form>
+
+        <button type='button' id="addTodo">Add</button>
+        <!-- <div id = 'button'>add</div> -->
+        <ol></ol>
+    </div>
+
+</body>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="popup.js"></script>
+
 </html>
